@@ -41,8 +41,12 @@ struct ContentView: View {
         VStack {
             TextField("Mainnet RPC URL", text: rpc)
 
-            Button(action: model.isRunning ? stop : start, label: { Label(model.isRunning ? "Stop" : "Start", systemImage: model.isRunning ? "stop.fill" : "play.fill") })
-                .disabled(model.isLoading)
+            HStack(spacing: 8) {
+                Button(action: model.isRunning ? stop : start, label: { Label(model.isRunning ? "Stop" : "Start", systemImage: model.isRunning ? "stop.fill" : "play.fill") })
+                    .disabled(model.isLoading)
+
+                Button(action: { NSApplication.shared.terminate(nil) }, label: { Label("Close", systemImage: "xmark.circle.fill") })
+            }
 
             Divider()
 
