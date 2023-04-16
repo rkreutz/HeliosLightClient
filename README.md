@@ -15,7 +15,8 @@ This is a macOS client app on top of Helios.
 
 ## Installation
 
-[macOS AppStore](https://apps.apple.com/us/app/helios-ethereum-light-client/id6447792834)
+- [macOS AppStore](https://apps.apple.com/us/app/helios-ethereum-light-client/id6447792834)
+- [Latest release binary](https://github.com/rkreutz/HeliosLightClient/releases/latest)
 
 ## Privacy Policy
 
