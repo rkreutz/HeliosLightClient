@@ -12,3 +12,7 @@ unmanipulable local RPC for its users. It syncs in seconds, requires no
 storage, and is lightweight enough to run on mobile devices.
 
 This is a macOS client app on top of Helios.
+
+## Installation
+
+[macOS AppStore](https://apps.apple.com/us/app/helios-ethereum-light-client/id6447792834)
