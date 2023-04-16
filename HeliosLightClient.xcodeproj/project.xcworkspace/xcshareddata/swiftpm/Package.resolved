@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "helioskit",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:rkreutz/HeliosKit.git",
+      "state" : {
+        "revision" : "e97a2709c5afb328bdad4214620fd3dcf43a5778",
+        "version" : "0.4.0"
+      }
+    }
+  ],
+  "version" : 2
+}
