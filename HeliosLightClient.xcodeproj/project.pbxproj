@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC213D6F2AEDED4400B8DA64 /* HeliosKit in Frameworks */ = {isa = PBXBuildFile; productRef = FC213D6E2AEDED4400B8DA64 /* HeliosKit */; };
 		FCD87C9C29EB6884003ACDE1 /* HeliosLightClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD87C9B29EB6884003ACDE1 /* HeliosLightClientApp.swift */; };
 		FCD87CA029EB6887003ACDE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD87C9F29EB6887003ACDE1 /* Assets.xcassets */; };
 		FCD87CA329EB6887003ACDE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCD87CA229EB6887003ACDE1 /* Preview Assets.xcassets */; };
-		FCD87CAC29EB75FA003ACDE1 /* HeliosKit in Frameworks */ = {isa = PBXBuildFile; productRef = FCD87CAB29EB75FA003ACDE1 /* HeliosKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCD87CAC29EB75FA003ACDE1 /* HeliosKit in Frameworks */,
+				FC213D6F2AEDED4400B8DA64 /* HeliosKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			);
 			name = HeliosLightClient;
 			packageProductDependencies = (
-				FCD87CAB29EB75FA003ACDE1 /* HeliosKit */,
+				FC213D6E2AEDED4400B8DA64 /* HeliosKit */,
 			);
 			productName = HeliosLightClient;
 			productReference = FCD87C9829EB6884003ACDE1 /* HeliosLightClient.app */;
@@ -116,7 +116,7 @@
 			);
 			mainGroup = FCD87C8F29EB6884003ACDE1;
 			packageReferences = (
-				FCD87CAA29EB75FA003ACDE1 /* XCRemoteSwiftPackageReference "HeliosKit" */,
+				FC213D702AEDFE0E00B8DA64 /* XCRemoteSwiftPackageReference "HeliosKit" */,
 			);
 			productRefGroup = FCD87C9929EB6884003ACDE1 /* Products */;
 			projectDirPath = "";
@@ -272,7 +272,7 @@
 				CODE_SIGN_ENTITLEMENTS = HeliosLightClient/HeliosLightClient.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HeliosLightClient/Preview Content\"";
 				DEVELOPMENT_TEAM = 49K39S52K6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -287,7 +287,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.HeliosLightClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -303,7 +303,7 @@
 				CODE_SIGN_ENTITLEMENTS = HeliosLightClient/HeliosLightClient.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_ASSET_PATHS = "\"HeliosLightClient/Preview Content\"";
 				DEVELOPMENT_TEAM = 49K39S52K6;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -318,7 +318,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rkreutz.HeliosLightClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -350,20 +350,19 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FCD87CAA29EB75FA003ACDE1 /* XCRemoteSwiftPackageReference "HeliosKit" */ = {
+		FC213D702AEDFE0E00B8DA64 /* XCRemoteSwiftPackageReference "HeliosKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:rkreutz/HeliosKit.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.4.0;
+				minimumVersion = 0.5.1;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FCD87CAB29EB75FA003ACDE1 /* HeliosKit */ = {
+		FC213D6E2AEDED4400B8DA64 /* HeliosKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FCD87CAA29EB75FA003ACDE1 /* XCRemoteSwiftPackageReference "HeliosKit" */;
 			productName = HeliosKit;
 		};
 /* End XCSwiftPackageProductDependency section */

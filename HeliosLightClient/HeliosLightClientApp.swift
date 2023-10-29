@@ -47,6 +47,8 @@ struct ContentView: View {
 
                 Button(action: { NSApplication.shared.terminate(nil) }, label: { Label("Close", systemImage: "xmark.circle.fill") })
             }
+            .buttonStyle(.borderedProminent)
+            .accentColor(Color(NSColor.alternateSelectedControlTextColor))
 
             Divider()
 
@@ -98,6 +100,7 @@ struct ContentView: View {
         Task {
             do {
                 try await Helios.shared.start(rpcURL: url)
+                try await Helios.shared.waitUntilSynced()
                 model.timer = nil
                 model.isRunning = true
                 model.icon = "ethereum.fill"

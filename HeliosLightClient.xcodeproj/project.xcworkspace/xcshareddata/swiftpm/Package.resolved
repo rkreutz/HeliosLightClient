@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:rkreutz/HeliosKit.git",
       "state" : {
-        "revision" : "e97a2709c5afb328bdad4214620fd3dcf43a5778",
-        "version" : "0.4.0"
+        "revision" : "65f7cbfef6f931d43bea01393229e6bf484d0142",
+        "version" : "0.5.1"
       }
     }
   ],
